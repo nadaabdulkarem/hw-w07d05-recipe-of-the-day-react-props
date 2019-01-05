@@ -1,0 +1,48 @@
+h1  {
+    text-align: center;
+}
+
+.recipe {
+    margin: 20px 0;
+    border: 2px solid #63786e;
+    border-radius: 3px;
+    width:60%;
+    padding: 0px 5px;
+    background: #e8f0a5;
+  }
+
+  .recipeContainer {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .recipesContainer {
+      margin: 0 auto;
+  }
+
+  .recipeOfTheDayContainer {
+      width: 80%;
+      margin: 0 auto;
+      border-left: 2px solid;
+      height: 100vh;
+      padding-left: 20px;
+      background: aliceblue;
+  }
+
+  .recipeOfTheDayContainer h5{
+      text-align: center;
+  }
+
+  .App {
+      display: flex;
+  }
+
+  body {
+      color: #63786e;
+  }
+
+  p, li {
+      color: #6b615a	
+  }
